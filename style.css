@@ -1,0 +1,10 @@
+.mtb-20 {
+    margin: 20px auto;   
+}
+.img-holder {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.gallery-img-holder img {
+    width: 100%;
+}
