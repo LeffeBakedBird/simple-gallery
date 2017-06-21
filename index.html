@@ -19,6 +19,17 @@
     <![endif]-->
   </head>
   <body>
+    <div class="config-settings">
+        <span class="toggler">
+            <span class="glyphicon glyphicon-cog"></span>
+        </span>
+        <p class="text-center h4">Settings</p>
+        <hr />
+        <div class="setting lb-setting enabled">
+            <span>Enable Lighbox:</span>
+            <span class="glyphicon glyphicon-ok-circle"></span>
+        </div>
+    </div> 
     <div class="container-fluid">
         <div class="row jumbotron">
             <div class="col-xs-12">
@@ -72,6 +83,15 @@
             <div class="col-sm-4 gallery-img-holder" filter-category="places">
                 <img src="img/place2.jpg" class="img-rounded thumbnail" />
             </div>
+            <div class="col-sm-4 gallery-img-holder" filter-category="places">
+                <img src="img/place4.jpeg" class="img-rounded thumbnail" />
+            </div>
+        </div>
+    </div>
+    <div class="lightbox">
+        <div class="img-container">
+            <span class="glyphicon glyphicon-remove close-btn"></span>
+            <img src="img/place2.jpg" class="img-responsive thumbnail" />
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
